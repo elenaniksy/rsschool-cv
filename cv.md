@@ -1,17 +1,17 @@
-#Elena Nikonova
+# Elena Nikonova
 
-###Contacts
+## Contacts
 * **Telegram:** *@elenaniksy*
 * **Phone:** *+7911-157-60-36*
 
-###Summary
+## Summary
 I'm enthusiastic and self-motivated person with an extensive experience of 5 plus years in Web
  Marketing and Web Design. I have strong background in layout, typography and web design. 
 
 I'm fond of web design, developing and self-development.
 Capable of working in a team or independently. I wish to start my career as Junior Web Developer next year.
 
-###Skills
+## Skills
 * Html;
 * CSS/Sass;
 * Javascript/React;
@@ -20,7 +20,7 @@ Capable of working in a team or independently. I wish to start my career as Juni
 * Photoshop/Illustrator/InDesign;
 * Figma.
 
-###Code Examples
+## Code Examples
 ```
 <!--Javascript Example. This function receive a string and convert every first letter of the word in the string to Upper
  Case-->
@@ -102,17 +102,17 @@ class MagicEightBall extends React.Component {
 };
 ```
 
-###Experience
+## Experience
 I have some experience in educational projects.
 You can find some of them [here](https://codepen.io/collection/ArGYkQ?cursor=ZD0xJm89MSZwPTEmdj0z) 
 
-###Education
+## Education
 I have University Degree in Publishing (Books Layout Designer). I'm self-studying in IT sphere.
  * FreeCodeCamp. Responsive Web Design/ Javascript Algorithms and Data Structures/ Front-end Libraries.
  * Netology. Basic HTML and CSS courses.
  * Coursera. Web Development: Web Design and Javascript.
 
-###Languages
+## Languages
 * **English:** B1 
-* **German:** A2. 
+* **German:** A2 
 *Ich habe keine Sprachuebung seit 5 Jahren.*
