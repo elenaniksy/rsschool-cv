@@ -5,14 +5,14 @@
 :root {
     --light-yellow: #FED52A;
     --light-grey: #989999;
-    --dark-grey: #343332;
-    --mustard: #C3A538;
+    --light-green: #F2FEDC;
 }
 
 body {
     font-family: Ubuntu, 'sans-serif';
     font-size: 17px;
     line-height: 2rem;
+    background-color: var(--light-green);
 }
 
 .container {
@@ -46,25 +46,22 @@ section > div > h3 {
     position: absolute;
     z-index: -50;
     width: calc(100% / 4);
-    height: calc(100% / 1.25);
+    height: calc(100% / 1.2);
     border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    margin-top: calc(15% - 0.8rem);
+    right: calc(50% - 0.8rem);
 }
 
 .grey-circle {
     background-color: var(--light-grey);
-    opacity: .5;
+    opacity: .8;
     position: absolute;
     z-index: -60;
     width: calc(100% / 4);
-    height: calc(100% / 1.25);
+    height: calc(100% / 1.2);
     border-radius: 0 100% 100% 0 / 0 50% 50% 0;
-    right: 2rem;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    left: calc(50% - 0.8rem);
+    top: calc(50% - 0.8rem);
 }
 
 .header-name > h1 {
@@ -73,8 +70,57 @@ ul {
 }
 
 .header-summary {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     line-height: 1.8rem;
+    padding: 1.5rem;
+}
+
+a {
+   text-decoration: none;
+   color: #000;
+   cursor: pointer;
+}
+
+a:hover {
+    color: #C3A538;
+    font-size: 1.3rem;
+}
+
+.code-example-block {
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 768px) {
+    section{
+      display: initial;
+    }
+    
+    .grey-circle{
+        display: none;
+    }
+    
+    .yellow-circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    code {
+        font-size: calc(100% - 0.2rem);
+        text-wrap: normal;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 90vw;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
 }
 
 

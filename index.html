@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,18 +8,17 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <main>
-    <body>
-        <div class="container">
-            <section class="background">
-                <div class="yellow-circle"></div>
-                <div class="grey-circle"></div>
-            </section>
-            <section class="top-block">
-                <div class="header-name">
-                    <h1>Elena Nikonova</h1>
-                    <h2>Junior Wed Developer</h2>
-                </div>
-                <div class="header-summary">
+    <div class="container">
+        <section class="background">
+            <div class="yellow-circle"></div>
+            <div class="grey-circle"></div>
+        </section>
+        <section class="top-block">
+            <div class="header-name">
+                <h1>Elena Nikonova</h1>
+                <h2>Junior Wed Developer</h2>
+            </div>
+            <div class="header-summary">
                     <p>
                         I’m enthusiastic and self-motivated person with an extensive experience of 5 plus years in Web
                         Marketing and Web Design. I have strong background in layout, typography and web design. I’m fond of
@@ -27,11 +26,11 @@
                         I wish to start my career as Junior Web Developer next year.
                     </p>
                 </div>
-            </section>
-            <section class="centric-block">
-                <div class="centric-block-skills">
-                    <h3>Skills</h3>
-                    <ul class="centric-block-skills-list">
+        </section>
+        <section class="centric-block">
+            <div class="centric-block-skills">
+                <h3>Skills</h3>
+                <ul class="centric-block-skills-list">
                         <li class="centric-block-skills-list-item">HTML</li>
                         <li class="centric-block-skills-list-item">CSS/ Sass</li>
                         <li class="centric-block-skills-list-item">Basic Javascript/ Basic React</li>
@@ -40,27 +39,27 @@
                         <li class="centric-block-skills-list-item">Photoshop/ Illustrator/ InDesign</li>
                         <li class="centric-block-skills-list-item">Figma</li>
                     </ul>
-                </div>
-                <div class="centric-block-contacts">
+            </div>
+            <div class="centric-block-contacts">
                     <h3>Contacts</h3>
                     <div class="centric-block-contacts">
                         <ul class="centric-block-contacts-list">
-                            <li class="centric-block-list-item">Telegram: <a href="#">@elenaniksy</a></li>
-                            <li class="centric-block-list-item">Phone: <a href="#">+7911-157-60-36</a></li>
+                            <li class="centric-block-list-item"><strong>Telegram:</strong> @elenaniksy</li>
+                            <li class="centric-block-list-item"><strong>Phone:</strong> +7911-157-60-36</li>
                         </ul>
                     </div>
                     <h3>Languages</h3>
                     <div class="centric-block-languages">
                         <ul class="centric-block-languages-list">
                             <li class="centric-block-languages-list-item">English: B1</li>
-                            <li class="centric-block-languages-list-item">German: A1. Ich habe keine Sprachuebung seit 5
-                                Jahren:)</li>
+                            <li class="centric-block-languages-list-item">German: A1. <br><em>Ich habe keine
+                                Sprachuebung seit 5 Jahren:)</em></li>
                         </ul>
                     </div>
                 </div>
-            </section>
-            <section class="bottom-block">
-                <div class="bottom-block-education">
+        </section>
+        <section class="bottom-block">
+          <div class="bottom-block-education">
                     <h3>Education</h3>
                     <p>I have University Degree in Publishing (Books Layout Designer). I’m self-studying in IT sphere.</p>
                     <ul class="bottom-block-education-list">
@@ -69,43 +68,33 @@
                         <li class="bottom-block-education-item">Coursera. Web Development: Web Design and Javascript.</li>
                     </ul>
                 </div>
-                <div class="bottom-block-experience">
-                    <h3>Experience</h3>
-                    <p>I have some experience in educational projects. You can find some of them <a
+          <div class="bottom-block-experience">
+                  <h3>Experience</h3>
+                  <p>I have some experience in educational projects. You can find some of them <a
                             href="https://codepen.io/collection/ArGYkQ?cursor=ZD0xJm89MSZwPTEmdj0z">here</a></p>
-                    <h3>Code Examples</h3>
-                    <div class="bottom-block-experience-code">
-                        <pre>
-<!--                            <code>-->
-<!--                            This example receive a string and convert every first letter of the-->
-<!--                            word in the string to Upper Case.-->
-
-<!--                            function titleCase(str) {-->
-<!--                            const allLowerCase = str.toLowerCase();-->
-<!--                            const regex = /^(\w)|(\s\w)/ig;-->
-<!--                            const result = allLowerCase.replace(regex, str => str.toUpperCase());-->
-
-<!--                            return result;-->
-<!--                            }-->
-
-<!--                            This example validates or rejects the US phone number based on different provided combination of-->
-<!--                            the formats.-->
-
-<!--                            function telephoneCheck(str) {-->
-<!--                            let regex = /^(1\s?)?(\(\d{3}\)|\d{3})([\s-]?)?\d{3}([\s-]?)?\d{4}$/g;-->
-<!--                            let result = regex.test(str);-->
-<!--                            if (result) {-->
-<!--                                return true;-->
-<!--                                } else {-->
-<!--                                return false;-->
-<!--                                }-->
-<!--                            }-->
-<!--                        </code>-->
-                        </pre>
-                    </div>
                 </div>
-            </section>
-        </div>
-    </body>
+        </section>
+        <section class="code-example-block">
+            <div class="bottom-block-experience-code">
+                <h3>Code Example</h3>
+                <p>&lt;!&ndash;&nbsp;&ndash;This example validates or rejects the US phone number based on different
+                    provided combination of the formats.&ndash;&nbsp;&ndash;&gt;
+                </p>
+                  <pre>
+                    <code>
+function telephoneCheck(str) {
+let regex = /^(1\s?)?(\(\d{3}\)|\d{3})([\s-]?)?\d{3}([\s-]?)?\d{4}$/g;
+let result = regex.test(str);
+if (result) {
+  return true;
+  } else {
+  return false;
+  }
+}
+</code>
+                  </pre>
+            </div>
+       </section>
+    </div>
 </main>
 </html>
