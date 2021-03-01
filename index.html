@@ -6,95 +6,128 @@
     <title>CV: Elena Nikonova</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 </head>
-  <main>
-    <div class="container">
-        <section class="background">
-            <div class="yellow-circle"></div>
-            <div class="grey-circle"></div>
-        </section>
-        <section class="top-block">
-            <div class="header-name">
+
+<header class="header">
+    <div class="wrapper">
+        <div class="header__content">
+            <div class="header__name">
+                <img class="header__img" src="assets/photo_2020-07-28_17-33-01.jpg" alt="CV photo">
                 <h1>Elena Nikonova</h1>
                 <h2>Junior Wed Developer</h2>
             </div>
-            <div class="header-summary">
-                    <p>
-                        I’m enthusiastic and self-motivated person with an extensive experience of 5 plus years in Web
-                        Marketing and Web Design. I have strong background in layout, typography and web design. I’m fond of
-                        web design, developing and self-development. Capable of working in a team or independently.
-                        I wish to start my career as Junior Web Developer next year.
-                    </p>
-                </div>
-        </section>
-        <section class="centric-block">
-            <div class="centric-block-skills">
-                <h3>Skills</h3>
-                <ul class="centric-block-skills-list">
-                        <li class="centric-block-skills-list-item">HTML</li>
-                        <li class="centric-block-skills-list-item">CSS/ Sass</li>
-                        <li class="centric-block-skills-list-item">Basic Javascript/ Basic React</li>
-                        <li class="centric-block-skills-list-item">Git</li>
-                        <li class="centric-block-skills-list-item">Bootstrap</li>
-                        <li class="centric-block-skills-list-item">Photoshop/ Illustrator/ InDesign</li>
-                        <li class="centric-block-skills-list-item">Figma</li>
-                    </ul>
-            </div>
-            <div class="centric-block-contacts">
-                    <h3>Contacts</h3>
-                    <div class="centric-block-contacts">
-                        <ul class="centric-block-contacts-list">
-                            <li class="centric-block-list-item"><strong>Telegram:</strong> @elenaniksy</li>
-                            <li class="centric-block-list-item"><strong>Phone:</strong> +7911-157-60-36</li>
-                        </ul>
-                    </div>
-                    <h3>Languages</h3>
-                    <div class="centric-block-languages">
-                        <ul class="centric-block-languages-list">
-                            <li class="centric-block-languages-list-item">English: B1</li>
-                            <li class="centric-block-languages-list-item">German: A1. <br><em>Ich habe keine
-                                Sprachuebung seit 5 Jahren:)</em></li>
-                        </ul>
-                    </div>
-                </div>
-        </section>
-        <section class="bottom-block">
-          <div class="bottom-block-education">
-                    <h3>Education</h3>
-                    <p>I have University Degree in Publishing (Books Layout Designer). I’m self-studying in IT sphere.</p>
-                    <ul class="bottom-block-education-list">
-                        <li class="bottom-block-education-item">FreeCodeCamp. Responsive Web Design/ Javascript Algorithms and Data Structures/ Front-end Libraries.</li>
-                        <li class="bottom-block-education-item">Netology. Basic HTML and CSS courses.</li>
-                        <li class="bottom-block-education-item">Coursera. Web Development: Web Design and Javascript.</li>
-                    </ul>
-                </div>
-          <div class="bottom-block-experience">
-                  <h3>Experience</h3>
-                  <p>I have some experience in educational projects. You can find some of them <a
-                            href="https://codepen.io/collection/ArGYkQ?cursor=ZD0xJm89MSZwPTEmdj0z">here</a></p>
-                </div>
-        </section>
-        <section class="code-example-block">
-            <div class="bottom-block-experience-code">
-                <h3>Code Example</h3>
-                <p>&lt;!&ndash;&nbsp;&ndash;This example validates or rejects the US phone number based on different
-                    provided combination of the formats.&ndash;&nbsp;&ndash;&gt;
+            <div class="header__about">
+                <p>
+                    I’m enthusiastic and self-motivated person with an extensive experience of 5 plus years in Web
+                    Marketing and Web Design. I have strong background in layout, typography and web design. I’m fond of
+                    web design, developing and self-development. Capable of working in a team or independently.
+                    I wish to start my career as Junior Web Developer this year.
                 </p>
-                  <pre>
-                    <code>
-function telephoneCheck(str) {
-let regex = /^(1\s?)?(\(\d{3}\)|\d{3})([\s-]?)?\d{3}([\s-]?)?\d{4}$/g;
-let result = regex.test(str);
-if (result) {
-  return true;
-  } else {
-  return false;
-  }
-}
-                    </code>
-                  </pre>
             </div>
-       </section>
+        </div>
     </div>
-</main>
+</header>
+
+<main class="main">
+      <div class="wrapper">
+          <section class="basic_information">
+              <div class="basic_information__skills">
+                  <h3>Skills</h3>
+                  <ul class="basic_information__list">
+                      <li class="basic_information__item">HTML</li>
+                      <li class="basic_information__item">CSS/ Sass</li>
+                      <li class="basic_information__item">Basic Javascript/ Basic React</li>
+                      <li class="basic_information__item">Git</li>
+                      <li class="basic_information__item">Bootstrap</li>
+                      <li class="basic_information__item">Photoshop/ Illustrator/ InDesign</li>
+                      <li class="basic_information__item">Figma</li>
+                  </ul>
+              </div>
+              <div class="basic_information__contacts">
+                  <h3>Contacts</h3>
+                      <ul>
+                          <li><strong>Telegram:</strong> @elenaniksy</li>
+                          <li><strong>Phone:</strong> +7(911) 157-60-36</li>
+                      </ul>
+                  <h3>Languages</h3>
+                      <ul>
+                          <li>English: B1</li>
+                          <li>German: A1+. <br><mark>Ich habe keine
+                              Sprachuebung seit 5 Jahren:)</mark></li>
+                      </ul>
+              </div>
+          </section>
+          <section class="education_experience">
+              <div class="education">
+                  <h3>Education</h3>
+                  <p>I have University Degree in Publishing (Books Layout Designer). I’m self-studying in IT sphere.</p>
+                  <ul class="education__list">
+                      <li>Udemy. React JS. Practical Course 2020.</li>
+                      <li>FreeCodeCamp. Responsive Web Design/ Javascript Algorithms and Data Structures/ Front-end Libraries.</li>
+                      <li>Udemy. Basic UI/ UX Design</li>
+                      <li>Coursera. Web Development: Web Design and Javascript.</li>
+                  </ul>
+              </div>
+              <div class="experience">
+                  <h3>Experience</h3>
+                  <p>I have some experience in educational projects. You can find some of them on my <a
+                          href="https://github.com/elenaniksy">GitHub page</a></p>
+              </div>
+          </section>
+          <section class="code-example">
+              <div class="code-example__content">
+                  <h3>Code Example</h3>
+                  <p>&lt;!&ndash;&nbsp;&ndash;This example of realization of basic algorithm "Binary
+                      Search".&ndash;&nbsp;&ndash;&gt;
+                  </p>
+                  <details>
+                      <summary>Code Preview</summary>
+                      <pre>
+                        <code>
+function binarySearch (array, element) {
+let first = 0;
+let last = array.length;
+
+while(first&lt; last) {
+    let middle = Math.floor((first + last) / 2);
+        if(element &lt;= array[middle]) {
+            last = middle;
+        } else {
+            first = middle + 1;
+        }
+    }
+return (first === arr.length-1 || arr[first] !== element) ? -1 : first;
+}
+                        </code>
+                    </pre>
+                  </details>
+              </div>
+          </section>
+      </div>
+  </main>
+
+<footer class="footer">
+    <div class="footer__wrapper">
+        <div class="logo__rs">
+                <div class="logo__img">
+                    <img class="img" src="assets/logo-rsschool3.png" alt="RS school logo">
+                </div>
+            </div>
+        <div class="icons">
+            <div class="js__course">
+                <span class="icon">
+                    <a href="https://rs.school/js/"><i class="fab fa-js-square"></i>
+                </a></span>
+            </div>
+            <div class="logo__github">
+                <span class="icon">
+                    <a href="https://github.com/elenaniksy">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>
